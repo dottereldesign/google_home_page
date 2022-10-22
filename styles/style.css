@@ -175,6 +175,25 @@ footer p {
   border-bottom: 1px solid #dadce0;
 }
 
+@media (max-width: 44em) {
+  .footer-flex {
+    flex-direction: column;
+  }
+
+  .footer-left-list .list-padding,
+  .footer-right-list .list-padding {
+    padding: 0;
+  }
+
+  .footer-right-list {
+    padding-top: 0.5em;
+  }
+
+  footer p {
+    padding-left: 0;
+  }
+}
+
 body {
   min-height: 100vh;
   display: flex;
