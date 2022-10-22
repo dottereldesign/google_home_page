@@ -5,9 +5,9 @@
 
 .navbar {
   font-family: arial, sans-serif;
-  font-size: 13px;
+  font-size: 1em;
   color: #212121;
-  padding-top: 11px;
+  padding-top: 0.6875em;
 }
 
 .navbar ul {
@@ -22,7 +22,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0 10px 0 10px;
+  padding: 0 0.625em 0 0.625em;
   text-decoration: none;
 }
 
@@ -35,11 +35,11 @@ a:hover {
 }
 
 #apps-btn {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 #profile-btn {
-  font-size: 36px;
+  font-size: 2.25em;
 }
 
 .logo {
@@ -49,14 +49,14 @@ a:hover {
 }
 
 .logo h1 {
-  margin: 25vh 0 25px 0;
+  margin: 25vh 0 1.5625rem 0;
 }
 
 .search-bar input[type="text"] {
-  padding: 12px 10px 12px 10px;
-  border-radius: 50px;
+  padding: 0.75em 0.625em 0.75em 0.625em;
+  border-radius: 3.125em;
   border-color: #eff0f2;
-  border-width: 0px;
+  border-width: 0em;
   width: auto;
 }
 
@@ -69,18 +69,18 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: left;
-  border-radius: 50px;
+  border-radius: 3.125em;
   border-style: solid;
   border-color: #bfc3c7;
   border-width: 0.1em;
-  width: 580px;
+  max-width: 36.25em;
   margin: auto;
-  padding: 0 0 0 15px;
+  padding: 0 0 0 1em;
 }
 
 .search-bar #search-btn {
   color: #9aa0a6;
-  font-size: 20px;
+  font-size: 1.25rem;
   display: flex;
 }
 
@@ -88,27 +88,27 @@ a:hover {
   display: flex;
   justify-content: center;
   font-family: arial, sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .search-and-lucky ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 20px 5px 20px 5px;
+  margin: 1.25em 0.3125em 1.25em 0.3125em;
   color: #353639;
 }
 
 .search li {
   background-color: #f8f9fa;
-  margin: 0px;
-  padding: 10px 15px 10px 15px;
+  margin: 0rem;
+  padding: 0.625em 0.9375em 0.625em 0.9375em;
 }
 
 .lucky li {
   background-color: #f8f9fa;
-  margin: 0px;
-  padding: 10px 15px 10px 15px;
+  margin: 0rem;
+  padding: 0.625em 0.9375em 0.625em 0.9375em;
 }
 
 .language {
@@ -120,7 +120,7 @@ a:hover {
 
 footer {
   font-family: arial, sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #6f6f6f;
   background-color: #f2f2f2;
 }
@@ -130,7 +130,7 @@ footer {
 }
 
 .solid {
-  height: 0.3px;
+  height: 0.0187rem;
   border: 0;
   color: #333;
   background-color: #dadce0;
@@ -148,7 +148,7 @@ ul {
 }
 
 .footer-left-list li {
-  padding: 0 10px 0 20px;
+  padding: 0 0.625em 0 1.25em;
 }
 
 .footer-right-list ul {
@@ -157,7 +157,7 @@ ul {
 }
 
 .footer-right-list li {
-  padding: 0 20px 0 10px;
+  padding: 0 1.25em 0 0.625em;
 }
 
 .footer-flex {
@@ -167,12 +167,12 @@ ul {
 
 footer {
   margin-top: auto;
-  padding: 10px;
+  padding: 0.625em;
 }
 
 footer p {
-  padding: 0 10px 15px 20px;
-  border-bottom: 1px solid #dadce0;
+  padding: 0 0.625em 0.9375em 1.25em;
+  border-bottom: 0.0625em solid #dadce0;
 }
 
 @media (max-width: 44em) {
@@ -200,4 +200,8 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+}
+
+main {
+  padding: 0 1em 0 1em;
 }
